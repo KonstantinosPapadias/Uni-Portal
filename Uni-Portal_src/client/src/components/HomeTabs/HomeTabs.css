@@ -1,0 +1,71 @@
+.tabs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.tabs-buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+}
+
+.tab-title {
+    border-radius: 50% 20% / 10% 40%;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.tab-title:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.tab-title-activated {
+    border-radius: 50% 20% / 10% 40%;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.9);
+    background-color: white;
+}
+
+.tab-title-header {
+    margin: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: small;
+    font-weight: 700;
+}
+
+.tabs-account-container-container {
+    background-color: #e7e7e7;
+    border-radius: 10px;
+}
+
+.tabs-account-container-container:hover {
+    background-color: #d7d7d7;
+}
+
+.tabs-account-container {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.tabs-account-container-display-name {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: small;
+    font-weight: bold;
+}
+
+.tabs-account-container-account {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: small;
+}

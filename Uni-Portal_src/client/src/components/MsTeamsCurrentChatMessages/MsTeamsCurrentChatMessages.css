@@ -1,0 +1,118 @@
+.msteams-current-chat-messages-container-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.msteams-current-chat-messages-members {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    margin: 0 0 0 40px;
+}
+
+.msteams-current-chat-messages-container {
+    width: 800px;
+    height: 320px;
+    overflow: auto;
+    scrollbar-width: 6px;
+    scrollbar-color: rgb(229, 226, 226);;
+    margin: 0 0 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.msteams-current-chat-messages-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.msteams-current-chat-messages-container::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgb(229, 226, 226);
+}
+
+.msteams-current-chat-message-container-container-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.msteams-current-chat-message-container-container-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.msteams-current-chat-message-container-left {
+    max-width: 600px;
+    background-color: white;
+    border-radius: 4px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.msteams-current-chat-message-container-right {
+    max-width: 600px;
+    background-color: rgb(230, 230, 243);
+    border-radius: 4px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-right: 20px;
+}
+
+.msteams-current-chat-message-content-container {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.msteams-current-chat-message-header {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.msteams-current-chat-message-sender {
+    font-size: small;
+    font-weight: 600;
+}
+
+.msteams-current-chat-message-date {
+    font-size: small;
+}
+
+.msteams-current-chat-message-content {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.msteams-current-chat-message-attachments-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.msteams-current-chat-message-attachment-container {
+    background-color: rgb(243, 243, 243);
+    text-decoration: none;
+    color: black;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 250px;
+}
+
+.msteams-current-chat-message-attachment {
+    margin: 10px;
+    width: 200px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

@@ -1,0 +1,200 @@
+.gmail-inbox-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.gmail-inbox-compose-button-container-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.gmail-inbox-compose-button-container {
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.gmail-inbox-compose-button-container:hover {
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.gmail-inbox-compose-button {
+    border-radius: 20px;
+    margin: 5px 15px 5px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.unread-emails-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.threads-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.threads-container-threads-type-container {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.compose-email-editor-container {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.compose-email-editor-header-container {
+    background-color: rgb(84, 84, 84);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.compose-email-editor-header {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+}
+
+.compose-email-editor-body-container {
+    background-color: white;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.compose-email-editor-body {
+    margin: 10px;
+}
+
+
+.compose-email-editor-body-input {
+    border: none;
+    outline: none;
+    font-size: small;
+    width: 100%;
+}
+
+.compose-email-editor-body-hr {
+    border: none;
+    border-top: 1px solid rgb(226, 226, 226);
+}
+
+.compose-email-editor-body-editor {
+    border: none;
+    outline: none;
+    resize: none;
+    width: 100%;
+}
+
+.compose-email-editor-uploaded-attachments-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.compose-email-editor-uploaded-attachment-container {
+    background-color: #eff0f1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.compose-email-editor-uploaded-attachment-container:hover {
+    cursor: default;
+}
+
+.compose-email-editor-uploaded-attachment {
+    margin: 10px;
+    text-overflow: ellipsis;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    color: #1967cd;
+}
+
+.compose-email-editor-remove-attachment-icon-container:hover {
+    cursor: pointer;
+}
+
+.compose-email-editor-buttons-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.compose-email-editor-reply-attachment-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.compose-email-editor-reply-button-container {
+    background-color: #1a73e8;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    border-radius: 4px;
+}
+
+.compose-email-editor-reply-button-container:hover {
+    background-color: #2d87fe;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.compose-email-editor-reply-button-text {
+    margin: 10px 30px 10px 20px;
+}
+
+.compose-email-editor-attachments-button-container {
+    border-radius: 4px;
+}
+
+.compose-email-editor-attachments-button-container:hover {
+    background-color: rgb(230, 229, 229);
+    cursor: pointer;
+}
+
+.compose-email-editor-attachments-button-icon {
+    margin: 2px;
+}
+
+.compose-email-editor-delete-button-container {
+    border-radius: 4px;
+}
+
+.compose-email-editor-delete-button-container:hover {
+    background-color: rgb(230, 229, 229);
+    cursor: pointer;
+}
+
+.compose-email-editor-delete-button-icon {
+    margin: 4px;
+}

@@ -1,0 +1,32 @@
+.focused-teams-chat-container-container {
+    background-color: rgb(240, 238, 238);
+    border-radius: 4px;
+}
+
+.focused-teams-chat-container-container:hover {
+    cursor: pointer;
+    background-color: rgb(226, 226, 226);
+}
+
+.focused-teams-chat-container {
+    width: 220px;
+    height: 40px;
+    margin: 0 10px 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.focused-teams-chat-members {
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   overflow: hidden;
+   font-size: small;
+}
+
+.focused-teams-chat-last-modified-date {
+   font-size: x-small;
+}

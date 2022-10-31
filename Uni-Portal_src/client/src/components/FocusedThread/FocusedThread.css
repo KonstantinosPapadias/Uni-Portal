@@ -1,0 +1,284 @@
+.focused-thread-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 1018px;
+    overflow: hidden;
+}
+
+.focused-thread-contents-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+    max-width: 1000px;
+}
+
+.focused-thread-minimize-icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.focused-thread-minimize-icon {
+    width: 40px;
+    height: 20px;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.focused-thread-minimize-icon:hover {
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.9);
+    background-color: rgb(237, 239, 243);
+}
+
+.focused-thread-subject-container {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: large;
+    font-weight: 400;
+}
+
+.focused-thread-message-container {
+    width: 100%;
+    border: none;
+    border-bottom: 0.5px solid rgb(226, 226, 226);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.focused-thread-message-from-and-date-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.focused-thread-message-from-container {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: small;
+}
+
+.focused-thread-message-date-container {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: medium;
+}
+
+.focused-thread-message-change-diplay-container-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.focused-thread-message-change-diplay-container {
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.focused-thread-message-change-diplay-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    background-color: rgb(241, 241, 241);
+}
+
+.focused-thread-message-html-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.focused-thread-message-attachments-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.focused-thread-message-number-of-attachments {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: small;
+    font-weight: bold;
+}
+
+.focused-thread-message-attachment-button {
+    background-color: rgb(240, 243, 243);
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.focused-thread-message-attachment-button:hover {
+    cursor: pointer;
+    background-color: rgb(217, 218, 219);
+}
+
+.focused-thread-reply-button-container {
+    margin-top: 20px;
+    background-color: #fff;
+    width: 104px;
+    height: 36px;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.focused-thread-reply-button-container:hover {
+    cursor: pointer;
+    background-color: rgb(237, 239, 243);
+}
+
+.focused-thread-reply-button-content {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: medium;
+    font-weight: 500;
+    color: #5f6368;
+}
+
+.focused-thread-replying-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.focused-thread-editor-container-container {
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 8px;
+}
+
+.focused-thread-editor-container-container:hover {
+    cursor: text;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+.focused-thread-editor-container-container:focus-within {
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+.focused-thread-editor-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+}
+
+.focused-thread-editor-reciever-container {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: small;
+    color: rgb(111, 111, 111);
+    margin-left: 20px;
+}
+
+.focused-thread-editor {
+    width: 750px;
+    resize: none;
+    outline: none;
+    border: none;
+}
+
+.focused-thread-editor::-webkit-scrollbar {
+    width: min-content;
+}
+
+.focused-thread-editor-uploaded-attachments-container {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.focused-thread-editor-uploaded-attachment-container {
+    background-color: #eff0f1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.focused-thread-editor-uploaded-attachment-container:hover {
+    cursor: default;
+}
+
+.focused-thread-editor-uploaded-attachment {
+    margin: 10px;
+    text-overflow: ellipsis;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    color: #1967cd;
+}
+
+.focused-thread-editor-remove-attachment-icon-container:hover {
+    cursor: pointer;
+}
+
+.focused-thread-editor-buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.focused-thread-editor-reply-attachment-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.focused-thread-editor-reply-button-container {
+    background-color: #1a73e8;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    border-radius: 4px;
+}
+
+.focused-thread-editor-reply-button-container:hover {
+    background-color: #2d87fe;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.focused-thread-editor-reply-button-text {
+    margin: 10px 30px 10px 20px;
+}
+
+.focused-thread-editor-attachments-button-container {
+    border-radius: 4px;
+}
+
+.focused-thread-editor-attachments-button-container:hover {
+    background-color: rgb(230, 229, 229);
+    cursor: pointer;
+}
+
+.focused-thread-editor-attachments-button-icon {
+    margin: 2px;
+}
+
+.focused-thread-editor-delete-button-container {
+    border-radius: 4px;
+}
+
+.focused-thread-editor-delete-button-container:hover {
+    background-color: rgb(230, 229, 229);
+    cursor: pointer;
+}
+
+.focused-thread-editor-delete-button-icon {
+    margin: 4px;
+}

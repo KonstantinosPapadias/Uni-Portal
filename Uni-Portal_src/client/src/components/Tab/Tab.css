@@ -1,0 +1,8 @@
+.tab-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.tab-element {
+    margin-bottom: 20px;
+}

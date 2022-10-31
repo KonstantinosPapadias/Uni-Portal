@@ -1,0 +1,95 @@
+.unfocused-unread-thread-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-top: 0.5px solid rgb(207, 209, 209);
+    border-bottom: 0.5px solid rgb(207, 209, 209);
+}
+
+.unfocused-unread-thread-container:hover {
+    cursor: pointer;
+    border-left: 0.5px solid rgb(207, 209, 209);
+    border-right: 0.5px solid rgb(207, 209, 209);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.unfocused-starred-thread-container {
+    background-color: #f1f1f1e6;
+    border-top: 0.5px solid rgb(207, 209, 209);
+    border-bottom: 0.5px solid rgb(207, 209, 209);
+}
+
+.unfocused-starred-thread-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.unfocused-thread-contents-container {
+    height: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.unfocused-starred-thread-star-icon-container {
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+    background-color: #cececee6;
+}
+
+.unfocused-starred-thread-star-icon-container:hover {
+    cursor: pointer;
+    background-color: #8d8d8de6;
+}
+
+.unfocused-thread-star-icon-container {
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.unfocused-thread-star-icon-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    background-color: #e0e0e0e6;
+}
+
+.unfocused-thread-members-container {
+    width: 168px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: small;
+    font-weight: 600;
+}
+
+.unfocused-thread-subject-and-snippet-container {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.unfocused-thread-subject-container {
+    font-size: small;
+    font-weight: 600;
+}
+
+.unfocused-thread-snippet-container {
+    font-size: small;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.unfocused-thread-time-or-date-container {
+    width: 50px;
+    font-size: small;
+    font-weight: 600;
+}

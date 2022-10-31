@@ -1,0 +1,32 @@
+.unfocused-teams-chat-container-container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+.unfocused-teams-chat-container-container:hover {
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+}
+
+.unfocused-teams-chat-container {
+    width: 220px;
+    height: 40px;
+    margin: 0 10px 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.unfocused-teams-chat-members {
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   overflow: hidden;
+   font-size: small;
+}
+
+.unfocused-teams-chat-last-modified-date {
+   font-size: x-small;
+}
