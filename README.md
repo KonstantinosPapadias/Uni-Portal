@@ -4,7 +4,7 @@
 
 <img src="./app_execution_images/logo_small.png" alt="Uni-Portal small logo" width="" height="50px" />
 
-*Uni-Portal* is a full stack web application that i developed for my diploma thesis. It offers the user unified access, through its graphical interface, to 3 different accounts that
+*Uni-Portal* is a full stack web application that i developed for my diploma thesis in the Department of Computer Science and Engineering at University of Ioannina. It offers the user unified access, through its graphical interface, to 3 different accounts that
 he/she uses to communicate daily. Specifically, the user is able to connect to the
 application 2 different Gmail accounts, as well as 1 Microsoft Teams account, so that he/she
 can then create new conversations, read messages from his/her 3 different accounts,
@@ -139,8 +139,11 @@ application server, also, communicates with the database to retrieve
 and store data.
 
 <img src="./app_execution_images/app_architecture.png" alt="Application architecture" width="500px" height="" />
-<div style="height: 100px"></div>
+<div style="height: 50px"></div>
 
+# Thesis report
+
+The entire thesis report can be found [here](./thesis_Papadias_Konstantinos_2614.pdf)
 
 # Installation and execution
 
@@ -165,3 +168,7 @@ and store data.
 8. Navigate to the *client* folder and run ```npm install```, to install all front-end/react server dependencies.
 9. Inside the *client* folder run ```npm start```, to run the front-end/react server.
 10. Open your browser of choice and go to http://localhost:3000/ to use the application.
+
+# Author
+
+[*Konstantinos Papadias*](https://github.com/KonstantinosPapadias)
