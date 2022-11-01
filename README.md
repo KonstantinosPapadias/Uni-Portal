@@ -14,10 +14,10 @@ appropriate account as the sender.
 
 # Technologies used
 
-- **MongoDb**
-- **Express.Js**
-- **React.Js**
-- **Node.Js**
+- **MongoDB**
+- **Express.js**
+- **React.js**
+- **Node.js**
 
 # Web APIs used
 
@@ -147,7 +147,7 @@ The entire thesis report can be found [here](./thesis_Papadias_Konstantinos_2614
 
 # Installation and execution
 
-1. Install a local MongoDb server and start it.
+1. Install a local MongoDB server and start it.
 2. Install Node.js and npm.
 3. Create a Google cloud web application project, enable Gmail API, create credentials (client id, client secret) and set 2 OAUth 2.0 redirect URIs to *http://localhost:3001/api/connect/gmail1/callback*, and *http://localhost:3001/api/connect/gmail2/callback*, respectively.
 4. Create a Microsoft Azure web application project, add the following API permissions: *Chat.ReadWrite*, *Files.ReadWrite.All*, *offline_access*, *User.Read*, *User.ReadBasic.All*, enable access and id tokens issueing, create credentials (client id, client secret) and set OAUth 2.0 redirect URI to *http://localhost:3001/api/connect/msTeams/callback*.
